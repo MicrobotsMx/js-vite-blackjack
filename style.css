@@ -1,0 +1,102 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+html, body {
+  margin: 0px;
+  background-color: #2F4F30;
+  color: white;
+}
+
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+
+#computadora-cartas, #jugador-cartas {
+  height: 240px;
+}
+
+.carta{
+  position: relative;
+  left: 100px;
+  margin-left: -75px;
+  width: 150px;
+  box-shadow: -5px 5px 10px rgba(28, 28, 28, 0.6);
+  border-radius: 15px;
+  animation: fadeInAnimation .2s ;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+  
+}
+
+#computadora-cartas, #jugador-cartas{
+  height: 240px;
+  width: 100%;
+}
+
+#jugador-cartas .margin-2{
+  margin-top: 0px;
+  left: 100px;
+}
+
+#jugador-cartas .margin-4{
+  margin-top: 8px;
+  left: 150px;
+}
+
+#jugador-cartas .margin-6{
+  margin-top: 16px;
+  left: 200px;
+}
+
+#jugador-cartas .margin-8{
+  margin-top: 24px;
+  left: 250px;
+}
+
+#jugador-cartas .margin-10{
+  margin-top: 32px;
+  left: 300px;
+}
+
+#jugador-cartas .margin-12{
+  margin-top: 40px;
+  left: 350px;
+}
+
+#jugador-cartas .margin-14{
+  margin-top: 48px;
+  left: 400px;
+}
+
+#computadora-cartas .margin-6{
+  margin-top: 0px;
+  left: 100px !important;
+}
+#computadora-cartas .margin-8{
+  margin-top: 8px;
+  left: 150px !important;
+}
+#computadora-cartas .margin-10{
+  margin-top: 16px;
+  left: 200px !important;
+}
+#computadora-cartas .margin-12{
+  margin-top: 24px;
+  left: 250px !important;
+}
+#computadora-cartas .margin-14{
+  margin-top: 32px;
+  left: 300px !important;
+}
